@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @EnableAutoConfiguration
-@RequestMapping("/api/mul")
+@RequestMapping("/api/hml/mul")
 public class MultiplyController {
     @RequestMapping(value = "/{x}/{y}", method = RequestMethod.GET)
     public ObjectResponse getMultiply(@PathVariable("x") Double x, @PathVariable("y") Double y, HttpServletResponse http) {
