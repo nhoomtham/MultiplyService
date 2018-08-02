@@ -1,4 +1,4 @@
-package com.accenture.sample.MultiplyService;
+package com.accenture.sample.multiply;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
